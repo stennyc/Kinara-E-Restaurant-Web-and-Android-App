@@ -110,7 +110,7 @@ class BackgroundWorker_register extends AsyncTask<String, String, String> {
         String answer = params[5];
 
 
-        String test_url = "http://172.20.10.2/rms2/API/signup.php";
+        String test_url = "http://rms.riway30.com/API/signup.php";
 
         try {
             URL url = new URL(test_url);

@@ -134,7 +134,7 @@ public class Tables extends AppCompatActivity {
         @Override
         protected String doInBackground(String... params) {
 
-            String test_url = "http://172.20.10.2/rms2/API/tables.php";
+            String test_url = "http://rms.riway30.com/API/tables.php";
 
             try {
                 URL url = new URL(test_url);
@@ -207,7 +207,7 @@ public class Tables extends AppCompatActivity {
         @Override
         protected String doInBackground(String... params) {
 
-            String test_url = "http://172.20.10.2/rms2/API/reserve_table.php";
+            String test_url = "http://rms.riway30.com/API/reserve_table.php";
 
             try {
                 URL url = new URL(test_url);

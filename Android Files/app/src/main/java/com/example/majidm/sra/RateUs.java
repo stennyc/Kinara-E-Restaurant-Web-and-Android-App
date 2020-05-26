@@ -121,7 +121,7 @@ public class RateUs extends AppCompatActivity {
         @Override
         protected String doInBackground(String... params) {
 
-            String test_url = "http://172.20.10.2/rms2/API/get_foods.php";
+            String test_url = "http://rms.riway30.com/API/get_foods.php";
 
             try {
                 URL url = new URL(test_url);
@@ -197,7 +197,7 @@ public class RateUs extends AppCompatActivity {
         @Override
         protected String doInBackground(String... params) {
 
-            String test_url = "http://172.20.10.2/rms2/API/get_scales.php";
+            String test_url = "http://rms.riway30.com/API/get_scales.php";
 
             try {
                 URL url = new URL(test_url);
@@ -272,7 +272,7 @@ public class RateUs extends AppCompatActivity {
         @Override
         protected String doInBackground(String... params) {
 
-            String test_url = "http://172.20.10.2/rms2/API/rateUs.php";
+            String test_url = "http://rms.riway30.com/API/rateUs.php";
 
             try {
                 URL url = new URL(test_url);

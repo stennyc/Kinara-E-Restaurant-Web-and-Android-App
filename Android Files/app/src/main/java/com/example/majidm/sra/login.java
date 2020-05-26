@@ -69,7 +69,7 @@ class BackgroundWorker_login extends AsyncTask<String, String, String> {
         String email = params[0];
         String password = params[1];
 
-        String test_url = "http://172.20.10.2/rms2/API/login.php";
+        String test_url = "http://rms.riway30.com/API/login.php";
 
         try {
             URL url = new URL(test_url);

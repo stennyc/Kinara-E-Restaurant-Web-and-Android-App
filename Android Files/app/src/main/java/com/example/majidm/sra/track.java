@@ -97,7 +97,7 @@ public class track extends FragmentActivity implements OnMapReadyCallback {
         @Override
         protected String doInBackground(String... params) {
 
-            String test_url = "http://172.20.10.2/rms2/API/get_location.php";
+            String test_url = "http://rms.riway30.com/API/get_location.php";
 
             try {
                 URL url = new URL(test_url);

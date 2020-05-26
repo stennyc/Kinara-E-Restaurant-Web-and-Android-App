@@ -166,7 +166,7 @@ public class Cart extends AppCompatActivity {
         @Override
         protected String doInBackground(String... params) {
 
-            String test_url = "http://172.20.10.2/rms2/API/cart.php";
+            String test_url = "http://rms.riway30.com/API/cart.php";
 
             try {
                 URL url = new URL(test_url);
@@ -251,7 +251,7 @@ public class Cart extends AppCompatActivity {
         @Override
         protected String doInBackground(String... params) {
 
-            String test_url = "http://172.20.10.2/rms2/API/get_quantities.php";
+            String test_url = "http://rms.riway30.com/API/get_quantities.php";
 
             try {
                 URL url = new URL(test_url);
@@ -328,7 +328,7 @@ public class Cart extends AppCompatActivity {
         @Override
         protected String doInBackground(String... params) {
 
-            String test_url = "http://172.20.10.2/rms2/API/update-quantity.php";
+            String test_url = "http://rms.riway30.com/API/update-quantity.php";
 
             try {
                 URL url = new URL(test_url);
@@ -392,7 +392,7 @@ public class Cart extends AppCompatActivity {
         @Override
         protected String doInBackground(String... params) {
 
-            String test_url = "http://172.20.10.2/rms2/API/place_order.php";
+            String test_url = "http://rms.riway30.com/API/place_order.php";
 
             try {
                 URL url = new URL(test_url);

@@ -104,7 +104,7 @@ public class db_panel extends AppCompatActivity {
         @Override
         protected String doInBackground(String... params) {
 
-            String test_url = "http://172.20.10.2/rms2/API/track.php";
+            String test_url = "http://rms.riway30.com/API/track.php";
 
             try {
                 URL url = new URL(test_url);
@@ -169,7 +169,7 @@ public class db_panel extends AppCompatActivity {
         @Override
         protected String doInBackground(String... params) {
 
-            String test_url = "http://172.20.10.2/rms2/API/boy_orders.php";
+            String test_url = "http://rms.riway30.com/API/boy_orders.php";
 
             try {
                 URL url = new URL(test_url);

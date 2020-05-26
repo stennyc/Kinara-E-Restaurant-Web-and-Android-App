@@ -58,7 +58,7 @@ public class messages extends AppCompatActivity {
         @Override
         protected String doInBackground(String... params) {
 
-            String test_url = "http://172.20.10.2/rms2/API/messages.php";
+            String test_url = "http://rms.riway30.com/API/messages.php";
 
             try {
                 URL url = new URL(test_url);

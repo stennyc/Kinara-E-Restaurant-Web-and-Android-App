@@ -139,7 +139,7 @@ public class reservations extends AppCompatActivity {
         @Override
         protected String doInBackground(String... params) {
 
-            String test_url = "http://172.20.10.2/rms2/API/my_tables.php";
+            String test_url = "http://rms.riway30.com/API/my_tables.php";
 
             try {
                 URL url = new URL(test_url);
@@ -215,7 +215,7 @@ public class reservations extends AppCompatActivity {
         @Override
         protected String doInBackground(String... params) {
 
-            String test_url = "http://172.20.10.2/rms2/API/my_rooms.php";
+            String test_url = "http://rms.riway30.com/API/my_rooms.php";
 
             try {
                 URL url = new URL(test_url);
@@ -291,7 +291,7 @@ public class reservations extends AppCompatActivity {
         @Override
         protected String doInBackground(String... params) {
 
-            String test_url = "http://172.20.10.2/rms2/API/cancel_reservation.php";
+            String test_url = "http://rms.riway30.com/API/cancel_reservation.php";
 
             try {
                 URL url = new URL(test_url);
